@@ -14,7 +14,7 @@ const CardContainer = styled.div`
 
 const CardTitle = styled.div``
 
-const Card = ({ card: { title } }: any) => (
+const Card = ({ card: { title, description, assignee, url } }: any) => (
   <CardContainer className='card'>
     <CardTitle>{title}</CardTitle>
   </CardContainer>
